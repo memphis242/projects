@@ -1,0 +1,97 @@
+# Project List
+
+## Pure Software
+### Level 1
+- `libsodium_playground`
+- `openssl_playground`
+- `netsnmp_playground`
+- `openssh_playground`
+
+- netsp
+- alarmtimer
+
+### Level 2
+- sftp client/serverdaemon
+- tftp client/serverdaemon
+- snmpv3 client/serverdaemon
+- https client/serverdaemon
+- mqtt client/serverdaemon
+
+- `budget_oracle`
+- `active_recall`
+- chatlan over wireless access point (WAP)
+    - Cisco Small Business WAP Series
+        - Cisco WAP125, WAP150 (may be hard to find)
+    - TP-Link EAP Series (Omada)
+        - Omada EAP620 (AX1800) ($124.99 from store.omadanetworks.com)
+        - Omada EAP723 (BE5000) ($89.99 from store.omadanetworks.com)
+    - Zyxel NWA / WAC Series
+
+- conficol
+- nparsy
+
+### Level 3
+- `a_game_of_pong`
+
+### Level 4
+- open source contributions
+
+## Electronics
+### Level 1
+- 555 Timer Explorations
+- AAA Battery → Adjustable 0-20V supply
+- Discrete Frequency Divider Circuit
+- Basic Voltage → 5-digit 7-Segment Display
+
+### Level 2
+- 120VAC → 12VDC, 5VDC (constant /w trimpots)
+
+### Level 3
+- custom zigbee supported device
+- custom bluetooth supported device
+
+## Embedded
+### Level 1
+- → |Pi Home Network|
+
+- UART/USB console app
+- `lwip_playground`
+
+- ascii7seg
+- bootloader
+- OTA update
+- Low-Power DC Motor Controller /w PIC12F1572
+- Sprint Timer
+- LED Ring
+- FRDM phone outlet → speaker
+
+### Level 2
+- Random Row
+- Calendar Heatmap
+- Quick Battery Measurement
+- → |DC Power Supply|
+- Frequency Sensor Emulator
+- PID Clock
+- Chat Row
+- Height Measurement
+- E-Ink Weather Reporter
+
+### Level 3
+- peer-to-peer playground
+- bluetooth 
+
+- Rubix
+
+### Level 4
+- electronode
+- Rhythm Pacer
+- uSparse
+- 3-Phase induction motor driver from DC battery
+
+- open source contributions
+    - FreeRTOS
+
+### Level 5
+- canary
+- Fixed-Wing Drone
+- distribute-the-benchmark
