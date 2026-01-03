@@ -1,6 +1,8 @@
 # Project List
 
 ## Pure Software
+For each of these, I'd definitely want to make a version in C, C++, Python, Javascript, and Rust.
+
 ### Level 1
 - `libsodium_playground`
 - `openssl_playground`
