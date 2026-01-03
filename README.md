@@ -4,22 +4,25 @@
 For each of these, I'd definitely want to make a version in C, C++, Python, Javascript, and Rust. It'll be fun and be a good way to keep each of those language skills sharp.
 
 ### Level 1
-- `libsodium_playground`
+- → |`libsodium_playground`|
 - `openssl_playground`
 - `netsnmp_playground`
 - `openssh_playground`
+- `libhttp_playground`
+- `sqlite_playground`
 
-- netsp
+- → |netsp|
 - alarmtimer
 
 ### Level 2
-- sftp client/serverdaemon
 - tftp client/serverdaemon
+- http client/serverdaemon
 - snmpv3 client/serverdaemon
+- sftp client/serverdaemon
 - https client/serverdaemon
 - mqtt client/serverdaemon
 
-- `budget_oracle`
+- → |`budget_oracle`|
 - `active_recall`
 - chatlan over wireless access point (WAP)
     - Cisco Small Business WAP Series
@@ -40,7 +43,7 @@ For each of these, I'd definitely want to make a version in C, C++, Python, Java
 
 ## Electronics
 ### Level 1
-- 555 Timer Explorations
+- → |555 Timer Explorations|
 - AAA Battery → Adjustable 0-20V supply
 - Discrete Frequency Divider Circuit
 - Basic Voltage → 5-digit 7-Segment Display
@@ -57,8 +60,9 @@ For each of these, where applicable, I'd definitely want to make a version in C,
 
 ### Level 1
 - → |Pi Home Network|
+- cryptorig
 
-- UART/USB console app
+- → |UART/USB console app|
 - `lwip_playground`
 
 - ascii7seg
@@ -73,9 +77,8 @@ For each of these, where applicable, I'd definitely want to make a version in C,
 - Random Row
 - Calendar Heatmap
 - Quick Battery Measurement
-- → |DC Power Supply|
+- DC Power Supply
 - Frequency Sensor Emulator
-- PID Clock
 - Chat Row
 - Height Measurement
 - E-Ink Weather Reporter
@@ -85,6 +88,7 @@ For each of these, where applicable, I'd definitely want to make a version in C,
 - bluetooth 
 
 - Rubix
+- PID Clock
 
 ### Level 4
 - electronode
