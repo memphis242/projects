@@ -1,7 +1,7 @@
 # Project List
 
 ## Pure Software
-For each of these, I'd definitely want to make a version in C, C++, Python, Javascript, and Rust.
+For each of these, I'd definitely want to make a version in C, C++, Python, Javascript, and Rust. It'll be fun and be a good way to keep each of those language skills sharp.
 
 ### Level 1
 - `libsodium_playground`
@@ -53,6 +53,8 @@ For each of these, I'd definitely want to make a version in C, C++, Python, Java
 - custom bluetooth supported device
 
 ## Embedded
+For each of these, where applicable, I'd definitely want to make a version in C, C++, and Rust. It'll be fun and be a good way to keep each of those language skills sharp.
+
 ### Level 1
 - → |Pi Home Network|
 
