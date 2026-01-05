@@ -10,6 +10,7 @@ For each of these, I'd definitely want to make a version in C, C++, Python, Java
 - `openssh_playground`
 - `libhttp_playground`
 - `sqlite_playground`
+- `libpcap_playground`
 
 - → |netsp|
 - alarmtimer
