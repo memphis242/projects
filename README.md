@@ -68,7 +68,6 @@ For each of these, where applicable, I'd definitely want to make a version in C,
 
 - ascii7seg
 - bootloader
-- Low-Power DC Motor Controller /w PIC12F1572
 - Sprint Timer
 - LED Ring
 - FRDM phone outlet → speaker
@@ -76,6 +75,8 @@ For each of these, where applicable, I'd definitely want to make a version in C,
 ### Level 2
 - Bluetooth Low Energy (BLE) console
 - OTA update
+   
+- Low-Power DC Motor Controller /w PIC12F1572
 
 - Random Row
 - Calendar Heatmap
