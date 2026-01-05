@@ -63,20 +63,23 @@ For each of these, where applicable, I'd definitely want to make a version in C,
 - → |Pi Home Network|
 - cryptorig
 
-- → |UART/USB console app|
+- → |serial console app|
 - `lwip_playground`
 
 - ascii7seg
 - bootloader
-- OTA update
 - Low-Power DC Motor Controller /w PIC12F1572
 - Sprint Timer
 - LED Ring
 - FRDM phone outlet → speaker
 
 ### Level 2
+- Bluetooth Low Energy (BLE) console
+- OTA update
+
 - Random Row
 - Calendar Heatmap
+
 - Quick Battery Measurement
 - DC Power Supply
 - Frequency Sensor Emulator
@@ -86,14 +89,18 @@ For each of these, where applicable, I'd definitely want to make a version in C,
 
 ### Level 3
 - peer-to-peer playground
-- bluetooth 
+- Zigbee mesh 
 
 - Rubix
 - PID Clock
 
+- PIC18F4620 CAN-to-Serial Dev Board for Glower
+
 ### Level 4
+- Zigbee mesh OTA
+
 - electronode
-- Rhythm Pacer
+- rhythmic for Green
 - uSparse
 - 3-Phase induction motor driver from DC battery
 
