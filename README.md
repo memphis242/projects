@@ -37,9 +37,16 @@ For each of these, I'd definitely want to make a version in C, C++, Python, Java
 - nparsy
 
 ### Level 3
+- `libtftp_playground`
+- `tftpy_playground`
+- Play around with `tftpd64`
+- Read the code of the Linux Kernel's network [`tftp` toolset](https://git.kernel.org/pub/scm/network/tftp/tftp-hpa.git/about)
+
 - `a_game_of_pong`
 
 ### Level 4
+- `libcurl_playground`
+
 - open source contributions
 
 ## Electronics
@@ -68,16 +75,18 @@ For each of these, where applicable, I'd definitely want to make a version in C,
 
 - ascii7seg
 - bootloader
-- Sprint Timer
-- LED Ring
-- FRDM phone outlet → speaker
 
 ### Level 2
 - Bluetooth Low Energy (BLE) console
 - OTA update
-   
-- Low-Power DC Motor Controller /w PIC12F1572
 
+- Low-Power DC Motor Controller /w PIC12F1572
+- FRDM phone outlet → speaker
+
+- Sprint Timer
+- LED Ring
+
+### Level 3
 - Random Row
 - Calendar Heatmap
 
@@ -88,16 +97,18 @@ For each of these, where applicable, I'd definitely want to make a version in C,
 - Height Measurement
 - E-Ink Weather Reporter
 
-### Level 3
+- PIC18F4620 CAN-to-Serial Dev Board /w 16x4 LCD for Glower
+
+### Level 4
 - peer-to-peer playground
 - Zigbee mesh 
 
 - Rubix
 - PID Clock
 
-- PIC18F4620 CAN-to-Serial Dev Board for Glower
+- Minimal serial desktop app for PIC18F CAN-to-serial dev board
 
-### Level 4
+### Level 5
 - Zigbee mesh OTA
 
 - electronode
@@ -108,7 +119,7 @@ For each of these, where applicable, I'd definitely want to make a version in C,
 - open source contributions
     - FreeRTOS
 
-### Level 5
+### Level 6
 - canary
 - Fixed-Wing Drone
 - distribute-the-benchmark
