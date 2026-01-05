@@ -11,6 +11,7 @@ For each of these, I'd definitely want to make a version in C, C++, Python, Java
 - `libhttp_playground`
 - `sqlite_playground`
 - `libpcap_playground`
+- `libevent_playground`
 
 - → |netsp|
 - alarmtimer
@@ -39,6 +40,7 @@ For each of these, I'd definitely want to make a version in C, C++, Python, Java
 ### Level 3
 - `libtftp_playground`
 - `tftpy_playground`
+- [`utftp`](github.com/yogo1212/utftp) playground
 - Play around with `tftpd64`
 - Read the code of the Linux Kernel's network [`tftp` toolset](https://git.kernel.org/pub/scm/network/tftp/tftp-hpa.git/about)
 
