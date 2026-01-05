@@ -12,6 +12,7 @@ For each of these, I'd definitely want to make a version in C, C++, Python, Java
 - `sqlite_playground`
 - `libpcap_playground`
 - `libevent_playground`
+- `zlib-ng_playground`
 
 - → |netsp|
 - alarmtimer
