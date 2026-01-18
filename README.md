@@ -25,6 +25,8 @@ For each of these, I'd definitely want to make a version in C, C++, Python, Java
 - https client/serverdaemon
 - mqtt client/serverdaemon
 
+- The Mindfully Embedded Blog
+
 - → |`budget_oracle`|
 - `active_recall`
 - chatlan over wireless access point (WAP)
