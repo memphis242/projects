@@ -120,6 +120,9 @@ For each of these, where applicable, I'd definitely want to make a version in C,
 - rhythmic for Green
 - uSparse
 - 3-Phase induction motor driver from DC battery
+- 8-bit MCU Assembly card punch machine
+- 8-bit MCU Assembly card reader machine
+- 8-bit MCU Assembly card runner machine
 
 - open source contributions
     - FreeRTOS
