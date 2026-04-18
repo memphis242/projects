@@ -5,11 +5,12 @@ For each of these, I'd definitely want to make a version in C, C++, Python, Java
 
 ### Level 1
 - → |`libsodium_playground`|
+- → |`libcjson_playground`|
+- `sqlite_playground`
 - `openssl_playground`
 - `netsnmp_playground`
-- `openssh_playground`
+- `libssh_playground`
 - `libhttp_playground`
-- `sqlite_playground`
 - `libpcap_playground`
 - `libevent_playground`
 - `zlib-ng_playground`
@@ -18,18 +19,19 @@ For each of these, I'd definitely want to make a version in C, C++, Python, Java
 - alarmtimer
 
 ### Level 2
-- tftp client/serverdaemon
-- http client/serverdaemon
-- snmpv3 client/serverdaemon
-- sftp client/serverdaemon
-- https client/serverdaemon
-- mqtt client/serverdaemon
+- → |tftpqa| (tftp test server)
+- tftp client
+- http client/server daemon
+- snmpv3 client/server daemon
+- sftp client/server daemon
+- https client/server daemon
+- mqtt client/server daemon
 
-- The Mindfully Embedded Blog
+- → |The Mindfully Embedded Blog|
 
 - → |`budget_oracle`|
-- `active_recall`
-- chatlan over wireless access point (WAP)
+- → |`active_recall`|
+- → |chatlan server + local certificate authority + TUI client app|
     - Cisco Small Business WAP Series
         - Cisco WAP125, WAP150 (may be hard to find)
     - TP-Link EAP Series (Omada)
@@ -37,7 +39,7 @@ For each of these, I'd definitely want to make a version in C, C++, Python, Java
         - Omada EAP723 (BE5000) ($89.99 from store.omadanetworks.com)
     - Zyxel NWA / WAC Series
 
-- conficol
+- → |conficol|
 - nparsy
 
 ### Level 3
@@ -47,10 +49,24 @@ For each of these, I'd definitely want to make a version in C, C++, Python, Java
 - Play around with `tftpd64`
 - Read the code of the Linux Kernel's network [`tftp` toolset](https://git.kernel.org/pub/scm/network/tftp/tftp-hpa.git/about)
 
+- chatlan phone app
+- chatlan web app
+- chatlan /w chatrow
+
 - `a_game_of_pong`
 
 ### Level 4
 - `libcurl_playground`
+
+- → |cwe-man|
+
+- smart home server + network
+    - room thermometers
+    - outdoor weather sensing
+    - door sensors
+    - window sensors
+    - air quality sensors
+    - home cameras
 
 - open source contributions
 
@@ -60,13 +76,21 @@ For each of these, I'd definitely want to make a version in C, C++, Python, Java
 - AAA Battery → Adjustable 0-20V supply
 - Discrete Frequency Divider Circuit
 - Basic Voltage → 5-digit 7-Segment Display
+- quality audio amplifier
 
 ### Level 2
 - 120VAC → 12VDC, 5VDC (constant /w trimpots)
 
+- EMG electrode amplifier
+- heart rate sensor amplifier
+
 ### Level 3
 - custom zigbee supported device
 - custom bluetooth supported device
+
+### Level 4
+- EMG electrode
+- heart rate sensor
 
 ## Embedded
 For each of these, where applicable, I'd definitely want to make a version in C, C++, and Rust. It'll be fun and be a good way to keep each of those language skills sharp.
@@ -75,49 +99,81 @@ For each of these, where applicable, I'd definitely want to make a version in C,
 - → |Pi Home Network|
 - cryptorig
 
-- → |serial console app|
+- → |UART console|
 - `lwip_playground`
 
 - ascii7seg
-- bootloader
+- PIC12F1572 bootloader
+
+- something with the Arduino R4 Minima... TBD
 
 ### Level 2
 - Bluetooth Low Energy (BLE) console
-- OTA update
+- WiFi console
+
+- CFAG240128U0 driver
+- TFTP display driver
+- OLED display driver
+- Electromechanical 7-segment display driver
+- Regular 7-segment display shift register-based driver
 
 - Low-Power DC Motor Controller /w PIC12F1572
 - FRDM phone outlet → speaker
+- Pill counter
 
 - Sprint Timer
 - LED Ring
+- Height Measurement
+- Chat Row
 
 ### Level 3
+- OTA update
+
 - Random Row
 - Calendar Heatmap
+
+- embedded fancy business card
+    - accelerometer + ultra-thin low power display
+    - tilt-based game
+    - max rotational speed app
+
+- usparse
 
 - Quick Battery Measurement
 - DC Power Supply
 - Frequency Sensor Emulator
-- Chat Row
-- Height Measurement
 - E-Ink Weather Reporter
 
+- arm heart rate monitor /w flexible display
+
+- squat form measurement device
+
+- edge ai... (TBD)
+
 - PIC18F4620 CAN-to-Serial Dev Board /w 16x4 LCD for Glower
+- Rhythmic (drum beat pacer tool) for Dr. Green
+
+- Sumobot
+- H.A.N.K. (embedded linux)
 
 ### Level 4
 - peer-to-peer playground
 - Zigbee mesh 
 
 - Rubix
-- PID Clock
+- ~~PID Clock~~ → PID Pin Aim
+- Battlebot
 
-- Minimal serial desktop app for PIC18F CAN-to-serial dev board
+- face misrecognition alarm
+
+- Basic TUI desktop app PIC18F CAN-to-serial dev board
+
+- Embedded Linux board /w four ethernet ports, no wireless comms
 
 ### Level 5
 - Zigbee mesh OTA
 
 - electronode
-- rhythmic for Green
 - uSparse
 - 3-Phase induction motor driver from DC battery
 - 8-bit MCU Assembly card punch machine
@@ -131,3 +187,6 @@ For each of these, where applicable, I'd definitely want to make a version in C,
 - canary
 - Fixed-Wing Drone
 - distribute-the-benchmark
+
+### Level 7
+- Autonomous Electric Snowplow
