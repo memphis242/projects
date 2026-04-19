@@ -1,14 +1,18 @@
 # Project List
 
+For the programming-related projects, I might want to make a version in C, C++,
+Python, and Rust, or at least alternate between each language as the one I _first_
+make a project in. It'll be an effective and fun way to keep each of those language
+skills sharp and explore different language concepts.
+
 ## Pure Software
-For each of these, I'd definitely want to make a version in C, C++, Python, Javascript, and Rust. It'll be fun and be a good way to keep each of those language skills sharp.
 
 ### Level 1
 - → |`libsodium_playground`|
 - → |`libcjson_playground`|
+- `netsnmp_playground`
 - `sqlite_playground`
 - `openssl_playground`
-- `netsnmp_playground`
 - `libssh_playground`
 - `libhttp_playground`
 - `libpcap_playground`
@@ -19,13 +23,21 @@ For each of these, I'd definitely want to make a version in C, C++, Python, Java
 - alarmtimer
 
 ### Level 2
-- → |tftpqa| (tftp test server)
+- → |tftptest| (tftp test server)
 - tftp client
-- http client/server daemon
-- snmpv3 client/server daemon
-- sftp client/server daemon
-- https client/server daemon
-- mqtt client/server daemon
+- http server daemon
+- http client
+- https server daemon
+- https client
+- snmpv3 server daemon
+- snmpv3 client
+- sftp server daemon
+- sftp client
+- mqtt server daemon
+- mqtt client
+
+- `network_topology_mapper` - A tool that uses SNMP and ICMP to map and visualize
+  devices on a local network.
 
 - → |The Mindfully Embedded Blog|
 
@@ -43,15 +55,16 @@ For each of these, I'd definitely want to make a version in C, C++, Python, Java
 - nparsy
 
 ### Level 3
-- `libtftp_playground`
 - `tftpy_playground`
 - [`utftp`](github.com/yogo1212/utftp) playground
-- Play around with `tftpd64`
 - Read the code of the Linux Kernel's network [`tftp` toolset](https://git.kernel.org/pub/scm/network/tftp/tftp-hpa.git/about)
 
+- `emg_signal_filter_sim` - A tool to simulate and apply digital filters to raw
+  EMG datasets, paving the way for real-time biomedical software.
+
+- chatlan /w chatrow
 - chatlan phone app
 - chatlan web app
-- chatlan /w chatrow
 
 - `a_game_of_pong`
 
@@ -84,6 +97,9 @@ For each of these, I'd definitely want to make a version in C, C++, Python, Java
 - EMG electrode amplifier
 - heart rate sensor amplifier
 
+- Custom PoE (Power over Ethernet) extractor - A circuit to extract power and
+  data from a PoE line to power small network nodes.
+
 ### Level 3
 - custom zigbee supported device
 - custom bluetooth supported device
@@ -91,9 +107,10 @@ For each of these, I'd definitely want to make a version in C, C++, Python, Java
 ### Level 4
 - EMG electrode
 - heart rate sensor
+- multichannel EMG acquisition board - A custom PCB designed to acquire, amplify,
+  and digitize multiple channels of muscle activity simultaneously.
 
 ## Embedded
-For each of these, where applicable, I'd definitely want to make a version in C, C++, and Rust. It'll be fun and be a good way to keep each of those language skills sharp.
 
 ### Level 1
 - → |Pi Home Network|
@@ -101,11 +118,15 @@ For each of these, where applicable, I'd definitely want to make a version in C,
 
 - → |UART console|
 - `lwip_playground`
+- `mbedtls_playground`
 
 - ascii7seg
 - PIC12F1572 bootloader
 
 - something with the Arduino R4 Minima... TBD
+
+- `freertos_network_node` - A basic FreeRTOS project on an ESP32/STM32 that
+  periodically pings a server and logs network health.
 
 ### Level 2
 - self-hosted LLM server /w 32GB of VRAM
@@ -118,6 +139,9 @@ For each of these, where applicable, I'd definitely want to make a version in C,
 - OLED display driver
 - Electromechanical 7-segment display driver
 - Regular 7-segment display shift register-based driver
+
+- Network-controlled robotic joint - An embedded controller for a single robotic
+  actuator (stepper/servo) that takes commands via a basic UDP protocol.
 
 - Low-Power DC Motor Controller /w PIC12F1572
 - FRDM phone outlet → speaker
@@ -150,6 +174,11 @@ For each of these, where applicable, I'd definitely want to make a version in C,
 - arm heart rate monitor /w flexible display
 
 - squat form measurement device
+- Portable ECG/EMG monitor - A battery-powered microcontroller device that reads
+  bio-signals and streams them over BLE or Wi-Fi to a host.
+- Linux-based Patient Monitoring Gateway - An embedded Linux hub (e.g. Raspberry Pi)
+  that aggregates BLE/Wi-Fi data from wearable sensors (like the ECG/EMG monitor)
+  and displays it on a local web dashboard.
 
 - edge ai... (TBD)
 
@@ -176,12 +205,23 @@ For each of these, where applicable, I'd definitely want to make a version in C,
 ### Level 5
 - Zigbee mesh OTA
 
+- Custom network switch management plane - Embedded firmware for a managed switch
+  IC implementing basic VLAN and SNMP support.
+
 - electronode
 - uSparse
 - 3-Phase induction motor driver from DC battery
 - 8-bit MCU Assembly card punch machine
 - 8-bit MCU Assembly card reader machine
 - 8-bit MCU Assembly card runner machine
+
+- Open-source pacemaker prototype - A highly reliable, redundant embedded system
+  designed to simulate pacemaker timing and fault-tolerance.
+
+- Rehab Robotics Control Kiosk - An embedded Linux system with a touchscreen GUI
+  (using Qt or GTK) acting as the primary user interface and high-level trajectory
+  planner for a rehabilitative robotic arm, communicating with lower-level
+  microcontrollers over CAN bus.
 
 - open source contributions
     - FreeRTOS
@@ -190,6 +230,14 @@ For each of these, where applicable, I'd definitely want to make a version in C,
 - canary
 - Fixed-Wing Drone
 - distribute-the-benchmark
+- Intensive Care Unit (ICU) Ventilator Controller - A highly reliable, multi-threaded
+  embedded Linux application (potentially with PREEMPT_RT patches) that handles
+  complex fluid dynamics, pressure monitoring, and UI for a life-support ventilator system.
 
 ### Level 7
 - Autonomous Electric Snowplow
+
+- Embedded Linux Medical Imaging Workstation - A custom embedded OS designed to
+  handle high-bandwidth data acquisition (e.g., from an MRI or ultrasound
+  sensor array), perform hardware-accelerated image reconstruction (using GPUs/FPGAs),
+  and render real-time medical imaging.
