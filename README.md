@@ -108,6 +108,8 @@ For each of these, where applicable, I'd definitely want to make a version in C,
 - something with the Arduino R4 Minima... TBD
 
 ### Level 2
+- self-hosted LLM server /w 32GB of VRAM
+
 - Bluetooth Low Energy (BLE) console
 - WiFi console
 
@@ -142,6 +144,7 @@ For each of these, where applicable, I'd definitely want to make a version in C,
 - Quick Battery Measurement
 - DC Power Supply
 - Frequency Sensor Emulator
+- remote finder
 - E-Ink Weather Reporter
 
 - arm heart rate monitor /w flexible display
