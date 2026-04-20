@@ -163,12 +163,13 @@ skills sharp and explore different language concepts.
 - ascii7seg
 - PIC12F1572 bootloader
 
-- something with the Arduino R4 Minima... TBD
-
 - `freertos_network_node` - A basic FreeRTOS project on an ESP32/STM32 that
   periodically pings a server and logs network health.
 
 ### Level 2
+- Arduino R4 Minima web server on the wall / transparent cube at my desk
+  - Inspired by `u/Techtoshi` on [Reddit](https://www.reddit.com/r/selfhosted/comments/1sqvujn/selfhosted_public_website_running_on_a_10_esp32/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button))
+
 - self-hosted LLM server /w 32GB of VRAM
 
 - Bluetooth Low Energy (BLE) console
