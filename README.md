@@ -54,6 +54,9 @@ skills sharp and explore different language concepts.
 - → |conficol|
 - nparsy
 
+- `joint_kinematics_visualizer` - A 2D tool to visualize joint angles and
+  range-of-motion from sensor data logs.
+
 ### Level 3
 - `tftpy_playground`
 - [`utftp`](github.com/yogo1212/utftp) playground
@@ -61,6 +64,8 @@ skills sharp and explore different language concepts.
 
 - `emg_signal_filter_sim` - A tool to simulate and apply digital filters to raw
   EMG datasets, paving the way for real-time biomedical software.
+- `gait_analysis_tool` - A software suite for analyzing IMU or video data to
+  calculate stride length, cadence, and gait symmetry.
 
 - chatlan /w chatrow
 - chatlan phone app
@@ -81,7 +86,23 @@ skills sharp and explore different language concepts.
     - air quality sensors
     - home cameras
 
+- `medical_arm_ik_lib` - A high-performance C++/Rust library for calculating
+  6-DOF inverse kinematics for rehabilitative robotic arms.
+
 - open source contributions
+
+### Level 5
+- `dicom_segmentation_ai` - An Edge-AI tool to identify and segment specific
+  tissues or organs in MRI/CT (DICOM) slices.
+
+### Level 6
+- `low_latency_teleop_net` - A specialized networking layer designed for
+  sub-millisecond, jitter-free control of remote surgical robots.
+
+### Level 7
+- `hospital_fleet_orchestrator` - A cloud-native system to manage and route a
+  fleet of autonomous mobile robots delivering supplies in a hospital.
+
 
 ## Electronics
 ### Level 1
@@ -96,6 +117,8 @@ skills sharp and explore different language concepts.
 
 - EMG electrode amplifier
 - heart rate sensor amplifier
+- Strain-gauge digital scale - A precision load cell interface for measuring
+  force application during physical therapy.
 
 - Custom PoE (Power over Ethernet) extractor - A circuit to extract power and
   data from a PoE line to power small network nodes.
@@ -103,12 +126,29 @@ skills sharp and explore different language concepts.
 ### Level 3
 - custom zigbee supported device
 - custom bluetooth supported device
+- PID Incubator Controller - A high-precision temperature control circuit for
+  maintaining stable 37°C environments for cell cultures.
 
 ### Level 4
 - EMG electrode
 - heart rate sensor
 - multichannel EMG acquisition board - A custom PCB designed to acquire, amplify,
   and digitize multiple channels of muscle activity simultaneously.
+- TENS Unit Prototype - A safe, low-frequency pulse generator circuit for
+  transcutaneous electrical nerve stimulation research.
+
+### Level 5
+- Multichannel NIRS Circuit - Analog circuitry to measure regional blood
+  oxygenation in muscle tissue using Near-Infrared Spectroscopy.
+
+### Level 6
+- 64-Channel Ultrasound AFE - A high-density analog front-end for processing
+  signals from a multi-element ultrasonic transducer array.
+
+### Level 7
+- Implantable Neural Link - A miniaturized, biocompatible, and wireless neural
+  recording and stimulation electronics package.
+
 
 ## Embedded
 
@@ -142,6 +182,8 @@ skills sharp and explore different language concepts.
 
 - Network-controlled robotic joint - An embedded controller for a single robotic
   actuator (stepper/servo) that takes commands via a basic UDP protocol.
+- Smart Pill Dispenser - A timed, servo-controlled mechanism for reliable medication
+  release with auditory and visual alerts.
 
 - Low-Power DC Motor Controller /w PIC12F1572
 - FRDM phone outlet → speaker
@@ -179,6 +221,8 @@ skills sharp and explore different language concepts.
 - Linux-based Patient Monitoring Gateway - An embedded Linux hub (e.g. Raspberry Pi)
   that aggregates BLE/Wi-Fi data from wearable sensors (like the ECG/EMG monitor)
   and displays it on a local web dashboard.
+- Haptic Feedback Glove - An embedded system using ultrasonic/LiDAR sensors to
+  provide tactile vibration feedback for the visually impaired.
 
 - edge ai... (TBD)
 
@@ -202,6 +246,9 @@ skills sharp and explore different language concepts.
 
 - Embedded Linux board /w four ethernet ports, no wireless comms
 
+- Voice-Controlled Mobility Module - An offline voice recognition module
+  integrated into an embedded controller for motorized wheelchair or platform control.
+
 ### Level 5
 - Zigbee mesh OTA
 
@@ -222,6 +269,8 @@ skills sharp and explore different language concepts.
   (using Qt or GTK) acting as the primary user interface and high-level trajectory
   planner for a rehabilitative robotic arm, communicating with lower-level
   microcontrollers over CAN bus.
+- Exoskeleton Leg Prototype - A synchronized, motor-driven leg brace using
+  force-sensitive resistors (FSRs) to provide active walking assistance.
 
 - open source contributions
     - FreeRTOS
@@ -233,6 +282,8 @@ skills sharp and explore different language concepts.
 - Intensive Care Unit (ICU) Ventilator Controller - A highly reliable, multi-threaded
   embedded Linux application (potentially with PREEMPT_RT patches) that handles
   complex fluid dynamics, pressure monitoring, and UI for a life-support ventilator system.
+- BCI Robotic Hand - An embedded system that classifies EEG patterns (e.g., via
+  SPI from a BCI board) to control an anthropomorphic robotic hand.
 
 ### Level 7
 - Autonomous Electric Snowplow
@@ -241,3 +292,5 @@ skills sharp and explore different language concepts.
   handle high-bandwidth data acquisition (e.g., from an MRI or ultrasound
   sensor array), perform hardware-accelerated image reconstruction (using GPUs/FPGAs),
   and render real-time medical imaging.
+- Autonomous Microsurgical Robot - A high-precision embedded system capable of
+  performing computer-vision guided micro-sutures with sub-millimeter accuracy.
